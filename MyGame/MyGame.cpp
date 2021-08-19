@@ -13,7 +13,16 @@ class Life
     int background[X][Y];
 
 public:
-    Life();
+    Life()
+    {
+        for (int i = 0; i < X; i++)
+        {
+            for (int j = 0; j < Y; j++)
+            {
+                background[i][j] = 0;
+            }
+        }
+    }
     ~Life();
 
 };
