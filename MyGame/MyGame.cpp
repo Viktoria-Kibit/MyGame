@@ -10,6 +10,11 @@ const int Y = spaceY + 2;
 
 class Life
 {
+    int background[X][Y];
+
+public:
+    Life();
+    ~Life();
 
 };
 
@@ -19,4 +24,3 @@ int main()
 
     return 0;
 }
-
