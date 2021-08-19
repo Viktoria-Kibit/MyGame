@@ -2,6 +2,17 @@
 
 using namespace std;
 
+#define spaceX 20
+#define spaceY 20
+
+const int X = spaceX + 2;
+const int Y = spaceY + 2;
+
+class Life
+{
+
+};
+
 int main()
 {
     
